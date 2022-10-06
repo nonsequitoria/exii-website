@@ -1,9 +1,14 @@
 ---
 layout: blog
+pagination:
+  data: collections.paper
+  size: 10
+  alias: research
 ---
 
 <section class="mt-15">
-    {% set postslist = collections.post %}
+
+    {% set postslist = collections.paper %}
 
     {% for post in postslist | reverse %}
         <article class="my-8">
@@ -19,8 +24,8 @@ layout: blog
             <p class="text-base leading-6 text-gray-500 mb-3">
                 <time>
                     {{ post.date | readableDate }}
-                    by
-                    <a>{{ post.data.author }}</a>
+                    {# by
+                    <a>{{ post.data.author }}</a> #}
 
                 </time>
             </p>

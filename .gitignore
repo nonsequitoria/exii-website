@@ -1,3 +1,7 @@
+# mine
+*.code-workspace
+
+# from template
 _site/
 _tmp/
 .DS_Store

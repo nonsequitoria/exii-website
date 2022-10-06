@@ -1,10 +1,8 @@
 ---
 items:
-  - text: Menu One
+  - text: People
     url: "#"
-  - text: Menu Two
+  - text: Research
+    url: "/research"
+  - text: About    
     url: "#"
-  - text: Menu Three
-    url: "#"
-  - text: Blog
-    url: "/blog"
