@@ -1,8 +1,8 @@
 ---
 items:
   - text: People
-    url: "#"
+    url: "/people"
   - text: Research
     url: "/research"
   - text: About    
-    url: "#"
+    url: "/about"

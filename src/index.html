@@ -6,28 +6,27 @@ path: home
 
 
 
-<div class="container mx-auto h-screen flex flex-col justify-center items-center pb-80 lg:pb-40">
+<div class="container mx-auto h-screen flex flex-col justify-center items-center p-20">
 
-<div class="absolute -z-10 w-auto min-w-full max-h-none top-0">
-  <video playsinline autoplay muted loop id="bgvid" 
->
+{# <div class="absolute -z-10 w-auto min-w-full max-h-none top-0">
+  <video playsinline autoplay muted loop id="bgvid" >
   <source src="/static/bgvids/method-switching.mp4" type="video/mp4">
 </video>
-</div>
+</div> #}
 
-
-
-  <h1>
-    <strong class="bg-clip-text text-transparent bg-gradient-to-r from-blue-500 to-purple-500">
-      <abbr title="expressive input and interaction">Exii</abbr> Research Group
-    </strong>
+  <img class="h-24 m-5" src="/static/img/exii-logo.svg" alt="Exii Logo"/>
+  
+  <h1 class="">
+    <strong class="p-2 bg-clip-text text-transparent bg-gradient-to-r from-blue-900 to-pink-500">
+      <abbr title="expressive input and interaction">Exii</abbr> Research Group</strong>
   </h1>
-  <p>Human-Computer Interaction Lab, School of Computer Science, University of Waterloo</p>
-
-  <p>
-    We investigate fundamental characteristics of human input and novel forms of interaction for current and future computing form factors. Our work is diverse, covering input methods like pen, touch, mouse, tangibles, mid-air gestures, and whole-body input, for everything from desktops, mobile phones, tablets, and wearable devices, to large displays, virtual reality, augmented reality, and fabrication. 
+   <p class="lg:text-lg">
+    <span class="font-bold">We're a group of human-computer interaction researchers investigating fundamental characteristics of human input and novel forms of interaction for current and future computing form factors.</span> Our work is diverse, covering input methods like pen, touch, mouse, tangibles, mid-air gestures, and whole-body input, for everything from desktops, mobile phones, tablets, and wearable devices, to large displays, virtual reality, augmented reality, and fabrication. Find out <a class="bg-pink-500 text-white px-1 pb-0.5" href="/people">who we are</a> and <a class="bg-pink-500 text-white px-1 pb-0.5" href="/research">what we do</a>.
   </p>
 
+ <p class="mt-10 text-sm lg:text-base" ><a href="">Human-Computer Interaction Lab</a>, <a href="">Cheriton School of Computer Science</a>, <a href="">University of Waterloo</a></p>
+
+ {# <img class="max-h-12 m-2" src="/static/img/uwhci-cs.png" /> #}
 
 
   {% include "./_includes/partials/content.html" %}
